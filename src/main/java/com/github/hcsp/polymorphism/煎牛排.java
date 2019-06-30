@@ -1,6 +1,6 @@
 package com.github.hcsp.polymorphism;
 
-public class 煎牛排  extends 菜 {
+public class 煎牛排 extends 菜 {
 
     @Override
     public void 洗锅() {
@@ -8,7 +8,7 @@ public class 煎牛排  extends 菜 {
     }
 
     @Override
-    public void 开始烹饪(){
+    public void 开始烹饪() {
         System.out.println("放牛排");
         System.out.println("煎啊煎啊煎");
     }
