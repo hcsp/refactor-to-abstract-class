@@ -1,6 +1,7 @@
 package com.github.hcsp.polymorphism;
 
 public abstract class 菜 {
+
     private String 菜名;
 
     public 菜(String 菜名) {
