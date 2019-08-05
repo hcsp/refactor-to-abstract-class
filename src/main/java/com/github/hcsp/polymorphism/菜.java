@@ -23,5 +23,5 @@ public class 菜 {
 
     public void 放佐料() {}
 
-    public void 出锅() {System.out.println("香喷喷的西红柿炒鸡蛋出锅啦");}
+    public void 出锅() {System.out.println("香喷喷的"+name+"出锅啦");}
 }
