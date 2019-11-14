@@ -21,6 +21,7 @@ public class 菜 {
     }
 
     public void 放佐料() {
+        System.out.println("放盐");
     }
 
     public void 出锅() {
