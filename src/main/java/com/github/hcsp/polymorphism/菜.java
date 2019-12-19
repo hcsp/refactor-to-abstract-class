@@ -12,7 +12,7 @@ public class 菜 {
         倒油();
         开始烹饪();
         放佐料();
-        出锅(dishName);
+        出锅();
     }
 
     public void 洗锅() {
@@ -30,7 +30,7 @@ public class 菜 {
         System.out.println("放盐");
     }
 
-    public void 出锅(String dishName) {
-        System.out.println("香喷喷的" + dishName + "出锅啦");
+    public void 出锅() {
+        System.out.println("香喷喷的" + this.dishName + "出锅啦");
     }
 }
