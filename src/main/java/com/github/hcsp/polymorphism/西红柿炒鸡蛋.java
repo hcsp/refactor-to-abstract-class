@@ -7,12 +7,12 @@ public class 西红柿炒鸡蛋 extends 菜 {
     }
 
     @Override
-    public void 洗锅(){
+    public void 洗锅() {
         System.out.println("洗炒锅");
     }
 
     @Override
-    public void 开始烹饪(){
+    public void 开始烹饪() {
         System.out.println("放鸡蛋");
         System.out.println("放西红柿");
         super.开始烹饪();
