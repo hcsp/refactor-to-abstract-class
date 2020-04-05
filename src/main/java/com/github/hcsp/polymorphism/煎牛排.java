@@ -21,11 +21,4 @@ public class 煎牛排 extends 菜 {
         System.out.println("放胡椒粉");
         super.放佐料();
     }
-
-//    @Override
-//    public void 出锅() {
-//        System.out.println("香喷喷的煎牛排出锅啦");
-//
-//    }
-
 }
