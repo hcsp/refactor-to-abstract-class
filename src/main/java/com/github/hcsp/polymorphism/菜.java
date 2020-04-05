@@ -18,7 +18,7 @@ public class 菜 {
     }
 
     public void 开始烹饪() {
-
+        System.out.println("炒啊炒啊炒");
     }
 
     public void 放佐料() {
