@@ -1,6 +1,10 @@
 package com.github.hcsp.polymorphism;
 
 public class 西红柿炒鸡蛋 extends 菜 {
+    西红柿炒鸡蛋() {
+        super("西红柿炒鸡蛋");
+    }
+
     @Override
     public void 倒油() {
         System.out.println("倒油");
