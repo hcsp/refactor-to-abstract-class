@@ -1,7 +1,7 @@
 package com.github.hcsp.polymorphism;
 
 public class 西红柿炒鸡蛋 extends 菜 {
-    public 西红柿炒鸡蛋(String name) {
+    public 西红柿炒鸡蛋() {
         super("西红柿炒鸡蛋");
     }
 
