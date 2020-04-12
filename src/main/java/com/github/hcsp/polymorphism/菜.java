@@ -33,6 +33,6 @@ public class 菜 {
     }
 
     public void 出锅() {
-        System.out.println("香喷喷的"+ name+"出锅啦");
+        System.out.println("香喷喷的" + name + "出锅啦");
     }
 }
