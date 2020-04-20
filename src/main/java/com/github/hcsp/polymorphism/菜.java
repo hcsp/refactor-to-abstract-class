@@ -5,6 +5,7 @@ public class 菜 {
     private String name;
 
     public 菜(String name) {
+
         this.name = name;
     }
 
@@ -17,10 +18,12 @@ public class 菜 {
     }
 
     public void 洗锅() {
-        System.out.println("洗炒锅");}
+        System.out.println("洗炒锅");
+    }
 
     public void 倒油() {
-        System.out.println("倒油");}
+        System.out.println("倒油");
+    }
 
     public void 开始烹饪() {
         System.out.println("炒啊炒啊炒");
@@ -31,6 +34,6 @@ public class 菜 {
     }
 
     public void 出锅() {
-        System.out.println("香喷喷的"+name+"出锅啦");
+        System.out.println("香喷喷的" + name + "出锅啦");
     }
 }
