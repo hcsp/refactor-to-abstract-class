@@ -7,7 +7,7 @@ public class 煎牛排 extends 菜 {
     }
 
     public 煎牛排() {
-
+        this("煎牛排");
     }
 
     @Override

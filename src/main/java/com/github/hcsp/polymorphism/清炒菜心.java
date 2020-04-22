@@ -6,7 +6,7 @@ public class 清炒菜心 extends 菜 {
     }
 
     public 清炒菜心() {
-
+        this("清炒菜心");
     }
 
     @Override
