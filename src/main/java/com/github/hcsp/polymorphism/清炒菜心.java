@@ -1,6 +1,6 @@
 package com.github.hcsp.polymorphism;
 
-public class 清炒菜心 extends 菜{
+public class 清炒菜心 extends 菜 {
 
     public 清炒菜心() {
         super("清炒菜心");
@@ -22,4 +22,6 @@ public class 清炒菜心 extends 菜{
         System.out.println("放酱油");
         System.out.println("放盐");
     }
+
+
 }
