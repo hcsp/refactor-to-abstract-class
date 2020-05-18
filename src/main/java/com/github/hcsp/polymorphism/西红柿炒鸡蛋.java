@@ -12,6 +12,9 @@ public class 西红柿炒鸡蛋 extends 菜 {
         System.out.println("炒啊炒啊炒");
     }
 
-
+    @Override
+    public void 放佐料() {
+        System.out.println("放盐");
     }
+}
 
