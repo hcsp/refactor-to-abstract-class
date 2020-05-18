@@ -14,7 +14,7 @@ public class 菜 {
     }
 
     public void 洗锅() {
-        System.out.println("洗锅");
+        System.out.println("洗炒锅");
     }
 
     public void 倒油() {
