@@ -5,6 +5,7 @@ public class 菜 {
     public 菜(String name){
         this.name = name;
     }
+
     public void 做一个菜() {
         洗锅();
         倒油();

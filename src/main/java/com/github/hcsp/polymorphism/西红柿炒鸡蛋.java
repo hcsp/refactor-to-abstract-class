@@ -4,6 +4,7 @@ public class 西红柿炒鸡蛋 extends 菜{
     public 西红柿炒鸡蛋() {
         super("西红柿炒鸡蛋");
     }
+
     @Override
     public void 开始烹饪() {
         System.out.println("放鸡蛋");
