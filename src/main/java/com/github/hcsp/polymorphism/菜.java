@@ -1,13 +1,11 @@
 package com.github.hcsp.polymorphism;
 
 public class 菜 {
-    String name;
-    public 菜(String name) {
+    private String name;
+    public 菜(String name){
         this.name = name;
     }
-
     public void 做一个菜() {
-
         洗锅();
         倒油();
         开始烹饪();
@@ -24,7 +22,6 @@ public class 菜 {
     }
 
     public void 开始烹饪() {
-        System.out.println("放青菜");
         System.out.println("炒啊炒啊炒");
     }
 
