@@ -3,9 +3,6 @@ package com.github.hcsp.polymorphism;
 public class 西红柿炒鸡蛋 extends 菜 {
 
 
-    public 西红柿炒鸡蛋() {
-       super();
-    }
 
     @Override
     public void 开始烹饪() {
