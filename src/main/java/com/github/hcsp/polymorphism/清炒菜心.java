@@ -10,7 +10,7 @@ public class 清炒菜心 extends 菜 {
     @Override
     public void 开始烹饪() {
         System.out.println("放青菜");
-        super.开始烹饪();
+        System.out.println("炒啊炒啊炒");
     }
 
     @Override
