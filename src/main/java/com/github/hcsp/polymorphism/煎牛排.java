@@ -1,15 +1,8 @@
 package com.github.hcsp.polymorphism;
 
-public class 煎牛排 extends 菜{
+public class 煎牛排 extends 菜 {
+
     public 煎牛排() {
-
-    }
-
-    public void 煎个牛排() {
-        做一个菜();
-    }
-
-    public 煎牛排(String name) {
         super("煎牛排");
     }
 

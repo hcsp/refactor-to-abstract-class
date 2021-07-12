@@ -7,10 +7,6 @@ public class 菜 {
         this.name = name;
     }
 
-    public 菜() {
-
-    }
-
     public void 做一个菜() {
         洗锅();
         倒油();
