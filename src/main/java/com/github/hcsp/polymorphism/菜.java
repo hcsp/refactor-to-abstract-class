@@ -1,8 +1,8 @@
 package com.github.hcsp.polymorphism;
 
 public class 菜 {
-    private String verb;
-    private String[] ingredients;
+    public String verb;
+    public String[] ingredients;
     public void 做一个菜() {
         洗锅();
         倒油();
@@ -11,21 +11,21 @@ public class 菜 {
         出锅();
     }
     public void 洗锅() {
-        print("洗"+this.verb+"锅");
+        System.out.println("洗"+this.verb+"锅");
     }
     public void 倒油() {
-        print("倒油");
-        for(material x:this.ingredients){
-            print("放"+x);
-        }
+        System.out.println("倒油");
     }
     public void 开始烹饪() {
-        print(this.verb+"啊"+this.verb+"啊"+this.verb);
+        for(String x:this.ingredients){
+            System.out.println("放"+x);
+        }
+        System.out.println(this.verb+"啊"+this.verb+"啊"+this.verb);
     }
     public void 放佐料() {
-        print("放盐");
+        System.out.println("放盐");
     }
     public void 出锅() {
-        print("香喷喷的"+this.getClass().getName()+"出锅啦");
+        System.out.println("香喷喷的"+this.getClass().getName().substring(29)+"出锅啦");
     }
 }
