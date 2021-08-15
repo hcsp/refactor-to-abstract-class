@@ -1,6 +1,8 @@
 package com.github.hcsp.polymorphism;
 
-public class 西红柿炒鸡蛋 {
+public class 西红柿炒鸡蛋 extends 菜{
+    this.verb="炒";
+    this.ingredients=["西红柿","鸡蛋"];
     public void 做个西红柿炒鸡蛋() {
         System.out.println("洗炒锅");
         System.out.println("倒油");
