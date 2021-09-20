@@ -15,7 +15,8 @@ public class 清炒菜心 extends 菜 {
     @Override
     public void 放佐料() {
         System.out.println("放酱油");
-        super.放佐料();
+        System.out.println("放盐");
+
     }
 
     @Override
