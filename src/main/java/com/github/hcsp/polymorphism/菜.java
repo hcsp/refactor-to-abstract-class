@@ -3,7 +3,7 @@ package com.github.hcsp.polymorphism;
 public class 菜 {
 
 
-    private String name;
+    protected String name;
 
     public 菜(String name) {
         this.name = name;
@@ -14,7 +14,7 @@ public class 菜 {
         倒油();
         开始烹饪();
         放佐料();
-        出锅(name);
+        出锅();
     }
 
     public void 洗锅() {
@@ -33,7 +33,7 @@ public class 菜 {
         System.out.println("放盐");
     }
 
-    public void 出锅(String name) {
+    public void 出锅() {
         System.out.println("香喷喷的" + name + "出锅啦");
     }
 }
