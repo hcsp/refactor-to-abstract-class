@@ -24,6 +24,6 @@ public class 菜 {
         System.out.println("放盐");
     }
     public void 出锅() {
-        System.out.println("香喷喷的"+this.getClass().getSimpleName()+"出锅了");
+        System.out.println("香喷喷的"+this.getClass().getSimpleName()+"出锅啦");
     }
 }
