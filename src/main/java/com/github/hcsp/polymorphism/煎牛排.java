@@ -4,7 +4,7 @@ public class 煎牛排 extends 菜{
 
     @Override
     public void 洗锅() {
-        System.out.println("洗炒锅");
+        System.out.println("洗煎锅");
     }
 
     @Override

@@ -7,7 +7,10 @@ public class 清炒菜心 extends 菜{
     public void 洗锅() {
         System.out.println("洗炒锅");
     }
-
+    @Override
+    public void 倒油() {
+        System.out.println("倒一点点油");
+    }
     @Override
     public void 开始烹饪() {
         System.out.println("放青菜");
