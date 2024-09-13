@@ -1,8 +1,8 @@
 package com.github.hcsp.polymorphism;
 
 public class 煎牛排 extends 菜 {
-    public 煎牛排(String name) {
-        super(name);
+    public 煎牛排() {
+        super("煎牛排");
     }
 
     @Override

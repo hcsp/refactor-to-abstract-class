@@ -2,8 +2,8 @@ package com.github.hcsp.polymorphism;
 
 public class 清炒菜心 extends 菜 {
 
-    public 清炒菜心(String name) {
-        super(name);
+    public 清炒菜心() {
+        super("清炒菜心");
     }
 
     @Override
